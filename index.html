@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>功能選單 | Buddy共時日常</title>
+  <style>
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      background-color: #f2eee6;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    h1 {
+      color: #5c5c5c;
+      margin-bottom: 30px;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 600px;
+    }
+    .link-button {
+      flex: 1 1 40%;
+      min-width: 140px;
+      padding: 15px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 12px;
+      background-color: #c8b6a6;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+    .link-button:hover {
+      background-color: #b09e8c;
+      transform: translateY(-3px);
+    }
+    @media (max-width: 600px) {
+      .link-button {
+        flex: 1 1 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>功能選單</h1>
+
+  <div class="button-container">
+    <button class="link-button" onclick="window.open('https://reurl.cc/RYkOGe')">衛浴</button>
+    <button class="link-button" onclick="window.open('https://reurl.cc/3KM3nj')">拉門</button>
+    <button class="link-button" onclick="window.open('https://reurl.cc/K89XWy')">地板</button>
+    <button class="link-button" onclick="window.open('https://reurl.cc/yRAm92')">廚具</button>
+    <button class="link-button" onclick="window.open('https://reurl.cc/gRYQ5Q')">採購</button>
+    <button class="link-button" onclick="window.open('https://reurl.cc/RYkv4n')">生產</button>
+  </div>
+
+</body>
+</html>
